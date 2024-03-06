@@ -97,7 +97,7 @@ nav button {
     font-size: 20px;
     text-align: center;
 }
-.btn-red {
+.btn-Laal {
     background-color: red;
     color: white;
     padding: 3px 24px;
@@ -324,6 +324,9 @@ footer .btn {
     flex-direction: column;
     gap: 23px;
 }
+
+
+
 /* for smaller phone */
 
 @media screen and (max-width: 768px) {
@@ -357,11 +360,17 @@ footer .btn {
     }
 
     .mid-button {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column;  
         align-items: center; /* Center align button */
+        
     }
 
-    .mid-button input,
+    .mid-button input{
+        width: 80%;
+    }
+    .btn-laal{
+        width: 70%;
+    }
     .btn-red {
         width: 100%; /* Make input and button full width */
     }
