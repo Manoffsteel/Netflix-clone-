@@ -324,6 +324,70 @@ footer .btn {
     flex-direction: column;
     gap: 23px;
 }
+/* for smaller phone */
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .main {
+        height: auto;
+        background-size: cover;
+    }
+
+    .main .box {
+        height: auto;
+    }
+
+    nav {
+        max-width: 90%;
+    }
+
+    .mid {
+        padding: 0 20px; /* Adjust padding */
+    }
+
+    .mid > :nth-child(1) {
+        font-size: 28px;
+        text-align: center; /* Center align text */
+    }
+
+    .mid > :nth-child(2),
+    .mid > :nth-child(3) {
+        font-size: 16px;
+        text-align: center; /* Center align text */
+    }
+
+    .mid-button {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align button */
+    }
+
+    .mid-button input,
+    .btn-red {
+        width: 100%; /* Make input and button full width */
+    }
+
+    .sectionImg img,
+    .sectionImg video {
+        width: 100%; /* Make images and videos responsive */
+        height: auto;
+    }
+
+    .faqbox {
+        max-width: 90%; /* Limit width for smaller screens */
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer a {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
 
 
 
